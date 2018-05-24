@@ -51,9 +51,9 @@ Please note that currently, this starter kit can only generate RESTful APIs for 
 
 ## 2. Setting up the project and DevOps toolchain
 
-To start building a blockchain application using this starter kit, this GitHub repository you will first clone this repository when you create the toolchain below.  You will then develop your blockchain application by working on the cloned GitHub repository. You do not need to manually clone this GitHub repository; please carry on reading!
+To start building a blockchain application using this starter kit, you will first set up a DevOps toolchain that will automatically build, test, and deploy your blockchain application to the IBM Cloud.  The IBM Cloud DevOps service is used to run the DevOps toolchain, and this starter kit includes a configuration that is suitable for use with this service.
 
-You also want to set up a DevOps toolchain that will automatically build, test, and deploy your blockchain application to the IBM Cloud. The IBM Cloud DevOps service can be used to to run the DevOps toolchain, and this starter kit includes configuration suitable for use with the IBM Cloud DevOps service.
+During the toolchain setup, this GitHub repository will be cloned to a repository of your choosing.  You develop your blockchain application by working on your cloned GitHub repository. You do not need to manually clone this GitHub repository if you follow the steps below: please carry on reading!
 
 Click the following link to set up a DevOps toolchain for your blockchain application:
 
@@ -63,7 +63,7 @@ The "Create a Toolchain" page will appear:
 
 ![Toolchain initial screen](./media/toolchain-initial.png)
 
-You must need to specify a name for your DevOps toolchain in the "Toolchain Name" field. In this example, I'll use "simons-blockchain-app" as the toolchain name:
+You must specify a name for your DevOps toolchain in the "Toolchain Name" field. In this example, I'll use "simons-blockchain-app" as the toolchain name:
 
 ![Toolchain name specified](./media/toolchain-name-specified.png)
 
