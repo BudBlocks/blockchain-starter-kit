@@ -51,7 +51,7 @@ Please note that currently, this starter kit can only generate RESTful APIs for 
 
 ## 2. Setting up the project and DevOps toolchain
 
-To start building a blockchain application using this starter kit, you must first clone this GitHub repository into a new GitHub repository. You will then develop your blockchain application by working on the cloned GitHub repository. You do not need to manually clone this GitHub repository; please carry on reading!
+To start building a blockchain application using this starter kit, this GitHub repository you will first clone this repository when you create the toolchain below.  You will then develop your blockchain application by working on the cloned GitHub repository. You do not need to manually clone this GitHub repository; please carry on reading!
 
 You also want to set up a DevOps toolchain that will automatically build, test, and deploy your blockchain application to the IBM Cloud. The IBM Cloud DevOps service can be used to to run the DevOps toolchain, and this starter kit includes configuration suitable for use with the IBM Cloud DevOps service.
 
